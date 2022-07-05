@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, Adiministrator, LIC=FQQMA-1P8PT-GQ40H-WA70K-9AMNU-07D4G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  D:\keli5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\28391\Desktop\robot2022\MDK-ARM\robot2022.uvprojx
+Project File Date:  07/04/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keli5\ARM\ARMCC\Bin'
+Build target 'robot2022'
+compiling K210.c...
+..\Mydrivers\K210.c(32): warning:  #550-D: variable "RxFlag1"  was set but never used
+  		static uint8_t RxFlag1 = 0;
+..\Mydrivers\K210.c(117): warning:  #550-D: variable "RxFlag2"  was set but never used
+  		static uint8_t RxFlag2 = 0;
+..\Mydrivers\K210.c: 2 warnings, 0 errors
+compiling CallBackAction.c...
+../Mydrivers/GraySensor.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyMiddleware\Judgement.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyMiddleware\CallBackAction.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyMiddleware\CallBackAction.c: 3 warnings, 0 errors
+compiling Miscellaneous.c...
+../Mydrivers/GraySensor.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyFiles\Miscellaneous.c(79): warning:  #1-D: last line of file ends without a newline
+  //}
+..\MyFiles\Miscellaneous.c: 2 warnings, 0 errors
+compiling main.c...
+../Mydrivers/FSM.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/PID.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/GraySensor.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/LinePatrolAction.h(17): warning:  #1295-D: Deprecated declaration YawangleerroGet - give arg types
+  double YawangleerroGet();
+../MyMiddleware/LinePatrolAction.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/Judgement.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyFiles/UserFSM.h(22): warning:  #1295-D: Deprecated declaration JudgeUp - give arg types
+  uint8_t JudgeUp();
+../MyFiles/UserFSM.h(23): warning:  #1295-D: Deprecated declaration JudgeDown - give arg types
+  uint8_t JudgeDown();
+../MyFiles/UserFSM.h(24): warning:  #1295-D: Deprecated declaration JudgeNormal - give arg types
+  uint8_t JudgeNormal();
+../MyFiles/UserFSM.h(26): warning:  #1295-D: Deprecated declaration MyFSMInit - give arg types
+  void MyFSMInit();    //初始状态配置及初始化
+../MyFiles/UserFSM.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/CallBackAction.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/TurnAroundAction.h(11): warning:  #1295-D: Deprecated declaration TurnBack - give arg types
+  void TurnBack();
+../MyMiddleware/TurnAroundAction.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/ServoMotor.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyFiles/UserMain.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c: 16 warnings, 0 errors
+compiling UserMain.c...
+../Mydrivers/GraySensor.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/Judgement.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/CallBackAction.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/PID.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/LinePatrolAction.h(17): warning:  #1295-D: Deprecated declaration YawangleerroGet - give arg types
+  double YawangleerroGet();
+../MyMiddleware/LinePatrolAction.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/FSM.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyFiles\UserFSM.h(22): warning:  #1295-D: Deprecated declaration JudgeUp - give arg types
+  uint8_t JudgeUp();
+..\MyFiles\UserFSM.h(23): warning:  #1295-D: Deprecated declaration JudgeDown - give arg types
+  uint8_t JudgeDown();
+..\MyFiles\UserFSM.h(24): warning:  #1295-D: Deprecated declaration JudgeNormal - give arg types
+  uint8_t JudgeNormal();
+..\MyFiles\UserFSM.h(26): warning:  #1295-D: Deprecated declaration MyFSMInit - give arg types
+  void MyFSMInit();    //初始状态配置及初始化
+..\MyFiles\UserFSM.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+../MyMiddleware/TurnAroundAction.h(11): warning:  #1295-D: Deprecated declaration TurnBack - give arg types
+  void TurnBack();
+../MyMiddleware/TurnAroundAction.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Mydrivers/ServoMotor.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyFiles\UserMain.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MyFiles\UserMain.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=40864 RO-data=760 RW-data=160 ZI-data=2920  
+FromELF: creating hex file...
+"robot2022\robot2022.axf" - 0 Error(s), 39 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_robot2022
+  D:\keli5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:37
+</pre>
+</body>
+</html>

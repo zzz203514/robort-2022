@@ -1,0 +1,14 @@
+单片机型号：STM32 H743 VBT6
+电机模块左路：PD4 PE9   TIM1
+电机模块右路：PD5 PE11 TIM2
+灰度：PB10（TX）PB11(RX)   UART3
+陀螺仪：PB12(RX) PB13(TX)   UART5
+漫反射：PA12(左）PA3（右）
+编码器：PD12 PD13(左）TIM4  PC6 PC7(右) TIM8
+舵机1：PA6 TIM3
+舵机2：PA7 TIM3
+K210视觉识别：PE0(RX) PE1(TX)    UART8      PA2(TX)   PD6(RX) USART 2
+调试口：PB14(TX) PB15(RX) UART 1
+
+//串口对应的都是单片机的口，在与外设进行连接时注意反接
+ 
